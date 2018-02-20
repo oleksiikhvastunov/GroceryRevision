@@ -1,0 +1,12 @@
+#PBS -j oe 
+#PBS -l nodes=1:ppn=1
+#PBS -l mem=20g
+#PBS -l walltime=120:00:00
+#PBS -q lionxf-econ
+module load matlab/R2013a
+module load knitro/9.0.1
+
+cd /gpfs/work/o/ouk111/ClearedGrocery/MatlabMain
+matlab -nodisplay<<MRUN
+mainNestsPointsAllFar3Club(1)
+MRUN
