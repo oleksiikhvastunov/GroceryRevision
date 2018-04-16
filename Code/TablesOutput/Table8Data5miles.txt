@@ -1,0 +1,7 @@
+Concentration & \multicolumn{6}{c}{Mean} \\
+&income&density&numStores&largeChainNumStores&LargeChainNum&clubStoresNum \\
+\hline
+1&26.76&6212.01&43.42&20.27&5.35&1.20 \\
+2&30.85&3017.46&21.79&13.43&4.44&0.95 \\
+3&25.65&1261.35&8.52&5.18&2.39&0.39 \\
+Total&28.05&2862.98&20.19&11.30&3.77&0.77 \\
